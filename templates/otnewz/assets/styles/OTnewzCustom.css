@@ -1,0 +1,78 @@
+/*/
+ * Override OTnewz CSS with your own declarations below
+ * To override colors, modify OTnewzThemeTHEMENAME.css
+/*/
+
+/*
+ * Mobile Styles Here
+*/
+
+@media only screen and (min-width : 20em) {
+	
+}
+@media only screen and (min-width : 22.5em) {
+	
+}
+@media only screen and (min-width : 30em) {
+	
+}
+@media only screen and (min-width : 33.75em) {
+	
+}
+@media only screen and (min-width : 40em) {
+	
+}
+@media only screen and (min-width : 42em) {
+	
+}
+@media only screen and (min-width : 48em) {
+	
+}
+@media only screen and (min-width : 50em) {
+	
+}
+@media only screen and (min-width : 55em) {
+	
+}
+@media only screen and (min-width : 60em) {
+	
+}
+@media only screen and (min-width : 61.25em) {
+	
+}
+@media only screen and (min-width : 62.5em) {
+	
+}
+@media only screen and (min-width : 63.125em) {
+
+	
+}
+body #header {
+	background: #c6c6c6;
+	max-width:1000px;
+	margin: 0 auto;
+	padding:0 10px;
+}
+#logo img{
+	margin: auto 50px;
+	max-width:none;
+}
+
+body, .navMain, .sidebarTabLink a {
+/*background: #f5f7fa;*/
+font-family: Arial,'Helvetica',sans-serif;
+font-size: 0.875em;
+font-size: 0.875rem;
+line-height: 1.714285;
+text-transform:lowercase;
+}
+#tagCloud span{
+	font-size:13px!important;
+}
+.socialShare a:link, #aSearchLink, .socialShare li{
+	text-indent:-140px;
+}
+.credits{
+	display:none;
+}
+
