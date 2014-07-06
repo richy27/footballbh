@@ -1,5 +1,5 @@
 jQuery(document).ready(function($) {
-	$.embedly.defaults.key = 'YOUR_EMBEDLY_API_KEY_HERE';
+	$.embedly.defaults.key = '8a17f425b30c40e4bf65df2447eab326';
 	function embedThumb() {
 		$('.xfolkentryThumb>a').embedly({
 			display: function(embedData) {
@@ -132,10 +132,11 @@ jQuery(document).ready(function($) {
 	$('.embedModalClose').on('click', function(e){
 		$('#embedModal').bPopup().close();
 	});
-	enquire.register("screen and (min-width: 30em)", {
+	// clarky edit from 30em
+	enquire.register("screen and (min-width: 20em)", {
 		deferSetup : true,
 		match : function() {
-			//embedThumb();
+			embedThumb();
 		},
 		unmatch : function() {
 			$('.xfolkentryThumb>a').html('');

@@ -178,6 +178,9 @@ jQuery(document).ready(function($) {
 			checkNavCatsWidth();
 		}
 	});
+	<!-- clarky edit begin -->
+	$('.modalHeader').append('<a rel="nofollow" href="/register.php">join now!</a>')
+	<!-- clarky edit end -->
 });
 </script>
 {/literal}
